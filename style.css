@@ -23,6 +23,7 @@ body{
     font-style: italic;
     font-weight: 500;
     padding-top: 10px;
+    width: 70%;
 }
 .icon{
     position: absolute;
@@ -144,6 +145,9 @@ footer{
     .time{
         right: 137px;
     }
+    .header p{
+        width: 52%;
+    }
 } 
  @media only screen and (max-width:768px){
      .container{
@@ -153,7 +157,8 @@ footer{
          font-size: 20px
      }
      .header p{
-         padding-left: 15px
+         padding-left: 15px;
+         width: 100%;
      }
      .icon{
          left: 13px;
@@ -191,6 +196,6 @@ footer{
     }
     .size{
         font-size: unset;
-        padding-top: 6px;
+        padding-top: 10px;
     }
 }
