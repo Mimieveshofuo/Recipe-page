@@ -168,6 +168,7 @@ footer{
      }
      .menu{
          display: flex;
+	justify-content: space-between;
      }
      .food-header{
          padding-top: 20px;
